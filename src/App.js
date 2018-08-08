@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
+import { getRandomColor, getReducedColor } from './randomColorGenerator.js'
 import './App.css'
 import Tier1 from './Tier1.js'
 
 class App extends Component {
+
+
   render() {
     return (
       <div className="App">
